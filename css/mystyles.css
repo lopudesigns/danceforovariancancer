@@ -1,0 +1,288 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+.index {
+	font-family: 'Raleway', sans-serif;
+}
+
+italic {
+	font-style: italic;
+}
+
+/** --------------------------------------------------------- NAVIGATION STYLING ----------------------------------------------------------------- **/
+
+
+.mynav {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	background-color: #0094ab;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.mynavmenu li {
+	display: inline;
+}
+
+.mynavmenu a {
+	margin-left: 24px;
+	margin-right: 27px;
+	padding-left: 6px;
+	padding-right: 3px;
+	display: inline-block;
+	color: #fff;
+	letter-spacing: 3px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	text-align: center;
+}
+
+.mynavmenu a:hover, .mynavmenu a:focus, .mynavmenu a:active {
+	display: inline-block;
+	color: #e2faff;
+	letter-spacing: 3px;
+	text-decoration: none;
+	background: rgba(255, 255, 255, 0.13);
+}
+
+.mynavmenu {
+	text-align: center;
+}
+
+/** --------------------------------------------------------- HEADER STYLING ----------------------------------------------------------------- **/
+
+
+.myheader {
+	background-color: #00acc6;
+	padding-top: 150px;
+	padding-bottom: 180px;
+}
+
+.headeroc {
+	color: #eaeaea;
+	font-style: italic;
+	font-size: 1.4vw;
+	font-weight: 200;
+	margin-bottom: -35px;
+}
+
+.headerdance {
+	padding-top: -20px;
+	color: #ffffff;
+	font-size: 7.45vw;
+	font-weight: 700;
+	letter-spacing: 5px;
+	
+}
+
+.btnmarg {
+	margin-right: 15px;
+}
+
+.btn {
+	border-radius: 0px !important;
+	font-family: 'raleway', sans-serif !important;
+	font-weight: 700;
+}
+
+.btn-reg {
+	border-color: #fff;
+	border-width: 1px;
+	background: rgba(255, 255, 255, 0);
+	color: #fff;
+}
+
+.btn-reg:hover, .btn-reg:focus {
+	color: #0094ab;
+	border-color: #007c9a;
+	background: #fff;
+}
+
+btn-reg:active {
+	box-shadow: 0px 0px 3px black;
+	border-color: #005279;
+	background: #cbe6f4;
+	color: #008599;
+}
+
+.btn-spons {
+	border-color: #007c9a;
+	border-width: 1px;
+	background: #fff;
+	color: #00acc6;
+}
+
+.btn-spons:hover, .btn-spons:focus {
+	color: #ffffff !important;
+	border-color: #007c9a;
+	background: rgba(34, 146, 194, 0.2);
+	border-width: 2px;
+	margin: -1px;
+}
+
+btn-spons:active {
+	box-shadow: 0px 0px 3px black;
+	border-color: #006a9a;
+	background: rgba(34, 146, 194, 0.2);
+	color: #f4f4f4;
+}
+
+time {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+}
+
+.hour {
+	font-size: 3rem;
+}
+
+.headerdate {
+	margin-top: 100px;
+	margin-bottom: 0px;
+	color: #f8f8f8;
+	font-size: 2.5rem;
+	font-weight: 100;
+	letter-spacing: 0px;
+}
+
+.kingston {
+	font-size: 3rem;
+	color: #f3f3f3;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-weight: 200;
+}
+
+.kingston a {
+	font-size: 3rem;
+	color: #f3f3f3;
+	margin-top: 25px;
+	margin-bottom: 2px;
+	font-weight: 700;
+}
+
+.kingston a:hover, .kingston a:focus {
+	text-decoration: none;
+	color: #dbf3ff;
+}
+
+.kingstonmap {
+	text-align: center;
+	position: static;
+	width: 75%;
+	height:300px;
+	margin: 0 auto;
+}
+
+.glyphicon-calendar {
+	margin-right: 5px;
+}
+
+.glyphicon-time {
+	margin-left: 35px;
+	margin-right: 5px;
+}
+
+.mybold {
+	font-weight: bold;
+}
+
+.toptext:hover, .toptext:focus {
+	cursor: pointer;
+	color: #006f80;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.register {
+	font-weight: bold !important;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+/** --------------------------------------------------------- ACTS STYLING ----------------------------------------------------------------- **/
+
+.kujopad {
+	padding-top: 120px;
+	padding-bottom: 260px;
+}
+
+.acts {
+	/* height: 600px; */
+}
+
+#acts h1 {
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+#acts p {
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	font-size: 1.5rem;
+	margin-right: 20px;
+}
+
+.kujoimgpos {
+	margin-left: 150px;
+	background-image: url('/img/kujokings.jpg');
+	background-size: auto 700px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+
+/** --------------------------------------------------------- BACKGROUND COLOURS STYLING ----------------------------------------------------------------- **/
+
+
+.bg-1 {
+	background-color: #FFFFFF;
+	color: #1e1e1e;
+}
+.bg-2 {
+background-color: #f9f9f9;
+color: #1e1e1e;
+}
+
+.bg-3 {
+background-color: #8f1da6;
+color: #ffffff;
+}
+
+.bg-4 {
+background-color: #c5ff59;
+color: #ffffff;
+}
+
+/** --------------------------------------------------------- POSTS STYLING ----------------------------------------------------------------- **/
+
+
+.post-1 {
+	padding-top: 250px;
+	padding-bottom: 250px;
+	background-color: #fafafa;
+	font-size: 5em;
+}
+.post-2 {
+	padding-top: 250px;
+	padding-bottom: 250px;
+	background-color: #40abee;
+	font-size: 5em;
+}
+
+.post-3 {
+	padding-top: 250px;
+	padding-bottom: 250px;
+	background-color: #ee8040;
+	font-size: 5em;
+}
+
