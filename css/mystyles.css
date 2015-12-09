@@ -10,6 +10,18 @@ italic {
 	font-style: italic;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.mybold {
+	font-weight: bold;
+}
+
 /** --------------------------------------------------------- NAVIGATION STYLING ----------------------------------------------------------------- **/
 
 
@@ -186,9 +198,7 @@ time {
 	margin-right: 5px;
 }
 
-.mybold {
-	font-weight: bold;
-}
+
 
 .toptext:hover, .toptext:focus {
 	cursor: pointer;
@@ -199,16 +209,24 @@ time {
 	text-transform: uppercase;
 }
 
-.register {
-	font-weight: bold !important;
-}
-
 .aligncenter {
 	text-align: center;
 }
 
+.mybold {
+	font-weight: bold;
+}
+
+.register {
+	font-weight: bold !important;
+}
+
+
+
 /** --------------------------------------------------------- ACTS STYLING ----------------------------------------------------------------- **/
 
+
+/* ------------------------------- KUJO --------------------------------- */
 .kujopad {
 	padding-top: 120px;
 	padding-bottom: 260px;
@@ -239,8 +257,149 @@ time {
 	position: relative;
 }
 
+/* ------------------------------- BT --------------------------------- */
+
+.btpad {
+	padding-top: 120px;
+	padding-bottom: 260px;
+}
+
+.btimgpos {
+	margin-left: 60px;
+	background-image: url('/img/BT.jpg');
+	background-size: auto 344px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* ------------------------------- KUJO --------------------------------- */
 
 
+/** --------------------------------------------------------- REGISTER STYLING ----------------------------------------------------------------- **/
+
+
+.register {
+	background-color: #007e91;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	border-top: 5px solid #0094ab;
+	border: 5px solid #0094ab;
+}
+
+.wantto {
+	font-weight: 700;
+	font-size: 2.4vw;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	line-height: 8px;
+	padding-left: 0px;
+	color: #ffffff;
+	padding-bottom: 40px;
+}
+
+#register h1 {
+	font-weight: 700;
+	font-size: 1.8vw;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	line-height: 8px;
+	padding-left: 0px;
+	color: #ffffff;
+	
+}
+
+#register #steps {
+	font-weight: 500;
+	font-size: 1.5vw;
+	text-transform: none;
+	padding-left: 0px;
+	line-height: 0px;
+	color: #FFFFFF;
+	margin-top: -15px;
+}
+
+#register #desc {
+	font-size: 17px;
+	font-weight: 300;
+/* 	padding: 10px; */
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+/* 	background-color: #0094ab;  */
+/* 	color: #ffffff;  */
+	line-height: 20px;
+	color: #ffffff;
+}
+
+#register a {
+	font-weight: 300;
+	color: #bcf6ff;
+	text-decoration: none !important;
+}
+
+#register a:hover {
+	color: #6fecff;
+}
+
+/** --------------------------------------------------------- FAQS STYLING ----------------------------------------------------------------- **/
+
+.faqs {
+	background-color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 120px;
+}
+
+#faq #faqtitle {
+	letter-spacing: 15px;
+	font-size: 6vw;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+
+#faq h1 {
+	font-size: 2.5rem !important;
+	color: #ffffff;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 25px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+/* 	letter-spacing: 8px; */
+	text-transform: uppercase;
+/* 	background-color: #0094ab; */
+	text-align: left;
+}
+
+.h1bg {
+	background-color: #0094ab;
+	padding-left: 5px;
+	padding-right: 8px;
+}
+
+#faq p {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: #000000;
+	text-align: left;
+	font-style: normal;
+	line-height: normal;
+	text-transform: none;
+	background-color: #ffffff;
+	margin-top: 8px;
+}
+
+#faq ul, #faq li {
+		font-size: 1.6rem;
+	font-weight: 500;
+	color: #000000;
+	text-align: left;
+	font-style: normal;
+	line-height: normal;
+	text-transform: none;
+	background-color: #ffffff;
+	margin-top: 8px;
+}
 /** --------------------------------------------------------- BACKGROUND COLOURS STYLING ----------------------------------------------------------------- **/
 
 
@@ -270,16 +429,15 @@ color: #ffffff;
 	padding-top: 250px;
 	padding-bottom: 250px;
 	background-color: #fafafa;
-	font-size: 5em;
+	font-size: 4em;
 }
-.post-2 {
+.rand1 {
 	padding-top: 250px;
 	padding-bottom: 250px;
 	background-color: #40abee;
-	font-size: 5em;
 }
 
-.post-3 {
+.rand2 {
 	padding-top: 250px;
 	padding-bottom: 250px;
 	background-color: #ee8040;

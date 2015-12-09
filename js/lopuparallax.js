@@ -23,9 +23,8 @@ $(document).ready(function(){
 		if (wScroll >= scrollStart) {
 
 		$('.kujoimgpos').css({
-			  'background-position' : '0 -'+(60 + ((wScroll - scrollStart) *.2)) +'px'
+			  'background-position' : '0 -'+(5 + ((wScroll - scrollStart) *.2)) +'px'
 		});
 	  }
 	});
-
 });
