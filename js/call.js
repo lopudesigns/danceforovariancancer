@@ -79,11 +79,13 @@ $(document).ready(function(){
 		if (stwScroll >= stscrollStart) {
 
 		$('.stimgpos').css({
-			  'background-position' : '30px '+( (-((stwScroll - stscrollStart) *.2)) + 150) +'px'
+			  'background-position' : '230px '+( (-((stwScroll - stscrollStart) *.2)) + 250) +'px'
 		});
 	  }
 	});
 	
+	// $fn.scrollSpeed(step, speed, easing);
+	jQuery.scrollSpeed(100, 800);
 	
 
 	

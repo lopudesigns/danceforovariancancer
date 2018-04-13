@@ -13,153 +13,406 @@
 		
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 		<script src="jquery-1.11.3.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/smooth.js"></script>
 		<script src="js/lopuparallax.js"></script>
-		<script src="js/lopuparallaxbt.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jqVal.js"></script>
+		<script src="js/contact_me.js"></script>
+		<script src="js/smooth.js"></script>
+		<script src="js/randomjs.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 		<script src="http://maps.googleapis.com/maps/api/js"></script>
 		<script src="js/gmap.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+		
+		
 		
 </head>
 
 
 
 <body id="home" class="index" data-spy="scroll" data-target="mynav" data-offset="60">
-
-<div class="container-fluid mynav">
-      <ul class="uppercase mynavmenu">
-        <li><a href="http://danceforovariancancer.com.au">Home</a></li>
-        <li><a class="scroll" href="#acts">acts</a></li>
-        <li><a class="scroll" href="#register">register</a></li>
-        <li><a class="scroll" href="#faq">faq</a></li>
+<section id="nav">
+<nav class="container-fluid mynav animate">
+      <ul class="animate uppercase mynavmenu">
+        <li><a href="index.html">Home</a></li>
         <li><a class="scroll" href="#about">about</a></li>
+        <li><a class="scroll" href="#register">register</a></li>
+        <li><a class="scroll" href="#acts">acts</a></li>
+        <li><a class="scroll" href="#faq">faq</a></li>
         <li><a class="scroll" href="#contact">contact</a></li>
       </ul>
-</div>
+</nav>
+</section>
 
 <div class="container-fluid myheader text-center">
-	<div class="headeroc">
-		Ovarian Cancer
+<!-- 	<div class="headeroc"> -->
+<!-- 		Ovarian Cancer -->
+<!-- 	</div> -->
+<!-- 	<div class="headerdance"> -->
+<!-- 		Dance-o-thon -->
+<!-- 	</div> -->
+
+<div>
+	<img class="dfocimg" src="img/danceothon.png">
+</div>
+
+	<div class="animate">
+		<a href="https://ovariancancer.secure.force.com/eventTicket?e=70116000000ob0m" target="_blank" class=" btn btn-lg btn-reg uppercase btnmarg">get tickets</a><a href="https://ovariancancer.secure.force.com/CICD__SignUp?id=70116000000oakU" target="_blank" class=" btn btnmarg btn-reg btn-lg uppercase">get sponsors</a><a href="https://ovariancancer.secure.force.com/Fundraise/danceothon2016" target="_blank" class=" btn btn-lg btn-reg uppercase btnmarg">Donate</a>
 	</div>
-	<div class="headerdance">
-		Dance-o-thon
-	</div>
-	<div>
-		<a href="https://ovariancancer.secure.force.com/eventTicket?e=70116000000ob0m" target="_blank" class="btn btn-lg btn-reg uppercase btnmarg">Register</a><a href="https://ovariancancer.secure.force.com/CICD__SignUp?id=70116000000oakU" target="_blank" class="btn btn-spons btn-lg uppercase">get sponsors</a>
-	</div>
+	<br>
 	<div class="headerdate">
-		<span class="glyphicon glyphicon-calendar"></span>May 14th <span class="mybold">2016</span>
+		<span class="glyphicon glyphicon-calendar"></span>May 14th 2016
 	</div>
 
 	<div class="kingston">
-		<span class="mybold">3</span><time>pm</time> - <span class="mybold">11</span><time>pm</time>
-at the <a target="_blank" href="https://www.google.com.au/maps/place/Kingston+City+Hall/@-37.9305426,145.0266516,14.25z/data=!4m2!3m1!1s0x6ad66eb237f62e3f:0xc9e49003d9d323c1!6m1!1e1" class="mybold">Kingston City Hall</a>
+		<div class="nowrap"><span class="mybold">3</span><time>pm</time> - <span class="mybold">11</span><time>pm</time>
+at the </div>
+<div class="nowrap"><a target="_blank" href="https://www.google.com.au/maps/place/Kingston+City+Hall/@-37.9305426,145.0266516,14.25z/data=!4m2!3m1!1s0x6ad66eb237f62e3f:0xc9e49003d9d323c1!6m1!1e1" class="mybold">Kingston City Hall</a>
+		</div>
 	</div>
-
-	<div class="kingstonmap" id="kingstonmap">
-	</div>
-
 </div>
-	
 
+<! ------------------------------------------------------- ABOUT -------------------------------------------------------------------------->
+
+
+<section id="about">
+	<div class="container-fluid greybg">
+		
+		<div class="row">
+				<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
+					<h2 id="welcometitle">WELCOME</h2>
+				</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
+				
+				<div class="col-lg-8 col-md-10 col-sm-10">
+					<h2>Welcome to our <span class="nowrap">Dance-O-Thon</span> for 2016!</h2>
+
+					<div class="about-text roww">
+						<div class="col-lg-6 col-md-10 col-sm-10">
+							<p>In 2014, 300 people danced for 8 hours relay-style to raise over $30,000 for ovarian cancer research. <br> <br> This year we’re doing it all again -  bigger venue, more dancers and another 8 hours of amazing performers to get you through the night. There will be bands, dance instructors and DJs of every style.</p>
+						</div> 
+						<div class="col-lg-6 col-md-10 col-sm-10">
+							<p>Grab a team or choose to dance solo, set your team or individual goal for how long you want to dance, get sponsored and have fun! <br> <br> The event starts 3pm May 14th 2016 at the Kingston City Hall, Moorabbin. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+						<img src="img/Dance-a-thon-Small.jpg" class="img-responsive DOTPic">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid whitebg">
+		<div class="row">
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
+				<div class="col-md-3 col-sm-3">
+					<img src="img/Carolyn-Glover.jpg" class="img-responsive CGPic">
+				</div>
+			<div class="col-md-8 col-sm-8">
+			
+				<h2>Carolyn Glover</h2>
+				<p  id="one">My name is Carolyn Glover and it is so exciting to be working on our second event to raise much needed funds for ovarian cancer research. It was in early 2014 that my  friend Millicent came up with the idea of a dance-related event to support me, and women like me, who are having to deal with the challenge of ovarian cancer. The idea of the Dance-‘O’-Thon was born because I love to dance – though poorly I might add!
+					<br><br>
+				I was diagnosed with ovarian cancer over four years ago. Though I am currently under treatment, I am happy to say I am well and active thanks to the excellent oncologists and medical infrastructure we have here in Melbourne.
+				<br><br>
+				Our last Dance-O-Thon raised $32,000+ towards the Australian Ovarian Cancer Study (AOCS). So join us in May 2016 to make the event even bigger and better than last time...
+				<br><br>
+				<ul class="aboutul">
+				<li>Come to raise more funds for ovarian cancer research</li>
+				<li>Come if you have ovarian cancer, or wish to support someone who does</li>
+				<li>Come if you wish to know more about the disease</li>
+				<li>Come to celebrate life!</li>
+				</ul>
+				</p>
+			</div>
+		</div>
+	<hr>
+		<div class="row">
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
+			<div class="col-md-3 col-sm-3">
+				<img src="img/JaneHill.png" class="img-responsive JHPic">
+			</div>
+			<div class="col-md-8 col-sm-8">		
+				<h2>Jane Hill</h2>
+				<p class="" id="one">Hello fellow dancers!
+					<br><br>
+All of us at Ovarian Cancer Australia are so excited to strap on our dancing shoes for the Dance-O-Thon in 2016 and we hope you are too!
+<br><br>
+I’d like to take this opportunity to thank everyone involved in organising the Dance-O-Thon for all of the hard work, time and effort that goes into putting on such a fantastic event. We are so grateful for the support of your community.
+<br><br>
+Thank you also to everyone who will be fundraising for us at the Dance-O-Thon. These much-needed funds will go towards supporting the Australian Ovarian Cancer Study, a collaborative research program between clinicians, scientists, patients and advocacy groups aimed at improving the prevention, diagnosis and treatment of ovarian cancer. Together, we can save lives and ensure no woman with ovarian cancer walks alone.
+<br><br>
+See you on the dance-floor on the 14th May!
+<br>
+<img src="img/JHsigTrans.png">
+<br>
+Jane Hill
+<br>
+CEO, Ovarian Cancer Australia
+<br><br>
+If you want to know more about ovarian cancer and the signs and symptoms please go to the <a target="_blank" href="https://ovariancancer.net.au/">OCA website</a>
+				</p>
+			</div>
+		</div>
+	</div>
+<div class="container">
+		<div class="row row-centered">
+			<div style="text-align: center; padding-top: 25px;" class="col-xs-10 col-centered">
+				<h3 style="margin-bottom: 0px;">Dance-O-thon Program</h3>
+			</div>
+			<div  class="col-md-6 col-sm-10 col-centered"><h4 style="margin-top: 2px;">			
+<strong>3:00</strong> - Zumba® with Steph Tabone, Fitness Infuzion<br>
+<strong>4:00</strong> – Welcome <br>
+<strong>4:35</strong> – Bush dance with the Billy Tea Bush Band<br>
+<strong>5:35</strong> – Bollywood with Jhoom Bollywood<br>
+<strong>6:40</strong> – Kujo Kings – ska band<br>
+<strong>7:30</strong> – Line dancing led by MC, Genevieve Kingsford<br>
+<strong>7:55</strong> – Rumba and bachata instruction, with Arthur Murray Ballroom<br>
+<strong>8:40</strong> – Latest dance hits and old favourites with DJ, Ben Glover<br>
+<strong>9:15</strong> – Nikki Nicholls – singer<br>
+<strong>10:00</strong> – Bakehouse Tuesday – playing ‘80s/’90s rock favourites<br></h4>
+			</div>
+		</div>
+</div>
+</section>	
+
+<! ------------------------------------------------------- REGISTERING -------------------------------------------------------------------------->
+
+<section id="register">
+	<div class="container-fluid register">
+		<div class="row">
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
+				<h2 id="regtitle">REGISTERING?</h2>
+			</div>
+		</div>
+	
+		<div class="row">	
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">	
+				<div class="col-md-7 col-md-offset-3 col-sm-7 col-sm-offset-3">
+<!-- 				<h1 class="wantto">Registering?</h1>  -->
+				
+				<!-- <p id="steps">Step 1</p> -->
+				
+				<!-- <p id="steps">Step 2</p> -->
+<!-- 				<h1>Pick a team name</h1> -->
+<!-- 				<p id="desc">Pick a team name that all your team members can sign up under. Get creative! </p> -->
+
+				<!-- <p id="steps">Step 3</p> -->
+				<h1>Register</h1>
+				<p class="desc">You can register <a href="https://ovariancancer.secure.force.com/eventTicket?e=70116000000ob0m">here</a>
+				
+				<br><br> Registration costs $35 for adults, $25 for students, $15 for under 16s or an $80 family ticket for two adults and two under 16s
+				
+				<br><br>For the first 100 adult tickets there is an early bird price of $30, so get in quickly!
+				
+				<br><br>Want to know what your registration fee pays for? Check out our <a class="scroll" href="#faq">FAQ</a> section.
+
+</p>
+
+				<!-- <p id="steps">Step 4</p> -->
+				<h1>Get sponsored</h1>
+				<p class="desc">To set up a sponsorship page <a href="https://ovariancancer.secure.force.com/CICD__SignUp?id=70116000000oakU">here</a> 
+				
+				<br><br>Pick a team name and set yourself a fundraising goal. There will be prizes for the top team and individual fundraisers. Don’t forget to share your sponsorship page on Facebook, Twitter, via email or in person and watch the sponsorship money roll in. You can collect money either online or in cash. 
+</p>
+
+				<h1>Get a team</h1>
+				<p class="desc">Badger your friends and grab a team of up to 8 people to tackle the challenge with. It doesn’t matter if they are dance masters or wouldn’t usually be seen dead on the dance floor. If you prefer you can choose to dance as an individual.<br><br>
+The idea is that at least one member of each team is dancing at all times for the full 8 hours. 8 hours is the goal but you’re welcome to set your own goal if that isn’t possible. You just won’t be eligible for the competitor prize draw at the end.<br><br>
+You can add team members to your team at any time by having them sign up using the team captain’s sponsorship link.
+</p>
+
+
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
 
 <! ------------------------------------------------------- ACTS -------------------------------------------------------------------------->
 
 <section id="acts" class="acts">
 <div class="container-fluid" >
 	<div class="row">
-		<div class="col-sm-4 col-sm-offset-2 kujopad" id="heightid">
-				<h1>The Kujo Kings</h1>
-				<p>
-					
-					Known for their Ska/Punk anthems and high energy packed out shows, this 20 something band has built a strong Australian-wide following since forming in 2010.  The six-piece band are dedicated to entertaining fans with their catchy and humorous tunes, with dangerous amounts of energy, dancing, costumes and gratuitous fun being a consistent feature of their shows, the Kujo Kings are an act not to be missed!
-					
-					</p>
-		</div>
-		<div id="imgstart" class="col-sm-4 kujoimgpos">
-		<! the image is here >
+		<div class="col-md-11 col-md-offset-1 col-sm-offset-1 acttitle">
+			<h2 id="acttitle">ACTS</h2>
 		</div>
 	</div>
 	
-	<div class="row">
-		<div id="btimgstart" class="col-sm-4 btimgpos">
-		<! the image is here >
-		</div>
-		<div class="col-sm-4 btpad" id="btheightid">
+	
+	
+	
+	<div class="row apact">
+		<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-1 col-xs-9 kujopad">
 				<h1>The Kujo Kings</h1>
-				<p>Known for their Ska/Punk anthems and high energy packed out shows, this 20 something band has built a strong Australian-wide following since forming in 2010.  The six-piece band are dedicated to entertaining fans with their catchy and humorous tunes, with dangerous amounts of energy, dancing, costumes and gratuitous fun being a consistent feature of their shows, the Kujo Kings are an act not to be missed!
-					
-					</p>
+				<p>Known for their Ska/Punk anthems and high energy packed out shows, this 20 something band has built a strong Australian-wide following since forming in 2010.  The six-piece band are dedicated to entertaining fans with their catchy and humorous tunes, with dangerous amounts of energy, dancing, costumes and gratuitous fun being a consistent feature of their shows, the Kujo Kings are an act not to be missed!</p>
+		</div>
+		<div class="overthing col-lg-4 col-md-6 col-sm-12 col-xs-12 col-xs-offset-0">
+		<img class="kujoimgsize" src="img/kujokings.jpg" />
 		</div>
 	</div>
 	
-	<div class="row">
-		<div class="col-sm-4 col-sm-offset-2 kujopad" id="heightid">
-				<h1>The Kujo Kings</h1>
-				<p>
-					
-					Known for their Ska/Punk anthems and high energy packed out shows, this 20 something band has built a strong Australian-wide following since forming in 2010.  The six-piece band are dedicated to entertaining fans with their catchy and humorous tunes, with dangerous amounts of energy, dancing, costumes and gratuitous fun being a consistent feature of their shows, the Kujo Kings are an act not to be missed!
-					
-					</p>
+	<div class="row apact">
+		<div class="overthing col-lg-6 col-md-6 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-offset-0 col-xs-12">
+		<img class="btimgsize" src="img/BT.jpg" />
 		</div>
-		<div id="imgstart" class="col-sm-4 kujoimgpos">
-		<! the image is here >
+		<div class="col-lg-4 col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-offset-1 btpad">
+				<h1>Bakehouse Tuesday</h1>
+				<p>This five-piece band came together in 2003 to play music from the glory days of rock. They soon found popularity, playing around Melbourne at pubs, clubs, corporate events and weddings. You’ll love their mix of classic rock covers from the ‘60s-’90s.</p>
 		</div>
 	</div>
+	
+	<div class="row apact">
+		<div class="col-md-4 col-md-offset-3 col-sm-6 col-sm-offset-1 col-xs-offset-1 stpad">
+				<h1>Steph Tabone</h1>
+				<p>Steph is a licensed Zumba&#174 Instructor, operating classes under her business, Fitness Infuzion since April 2013.  She holds her weekly Zumba&#174 classes in Black Rock on Monday and Wednesday evenings and in Hampton on Saturday mornings. Steph has an infectious passion for Zumba&#174 and she’s back again after a packed dance floor in 2014.</p>
+		</div>
+				<div class="overthing col-md-4 col-sm-12 col-xs-12 col-xs-offset-0">
+					<img class="stimgsize" src="img/ST.jpg" />
+				</div>
+	</div>
+	
+	<div class="row apact">
+		<div class="overthing col-xl-3 col-lg-4 col-lg-offset-1 col-md-5 col-sm-12 col-xs-offset-0">
+			<img class="bbimgsize" src="img/Billy%20Tea%20Bush.jpg" />
+		</div>
+		<div class="col-lg-4 col-md-5 col-md-offset-0 col-sm-4 col-xs-8 col-xs-offset-1  btpad">
+				<h1>Billy Tea Bush Band</h1>
+				<p>Michael Quarrell and Phil Smurthwaite have performed together for over 23 years and played at almost every occasion you could imagine – school bush dances, weddings, corporate events, festivals, pubs, parties, Australia Day celebrations – spreading their wisdom that a good ol’ bush dance is a fool-proof way for people of all ages, abilities and walks of life to break the ice, let down their hair and have a great time!</p>
+		</div>
+	</div>
+	
+	<div class="row apact">
+		<div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-9 col-xs-offset-1 stpad">
+				<h1>Nikki Nicholls</h1>
+				<p>Nikki began her musical career at a very young age singing and dancing each week on a children’s variety TV show.  She’s been a singer ever since, she was a member of the original John Farnham band touring for four years and was also able to perform with one of her idols, Stevie Wonder. 
+Nikki has toured throughout Europe, Japan, Uk, Australia and Asia with Kylie Minogue and for many years has starred alongside Wendy Stapleton and Debra Byrne in the highly acclaimed “Girls, Girls, Girls.” Her albums include “Yume Ippai” which she wrote and recorded in Japanese and “Don’t let me be Misunderstood” an album of Jimi Hendrix, Led Zeppelin, Cream, Deep Purple classics.
+Nikki is in the process of recording her next album of original songs, this time written in English.
+</p>
+		</div>
+		<div class="overthing col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+			<img class="nickyimgsize" src="img/NN.jpg" />
+		</div>
+	</div>
+	
+	<div class="row apact">
+		<div class="overthing col-xl-3 col-lg-6 col-lg-offset-1 col-md-7 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+		<img class="jjimgsize " src="img/jhoom.jpg" />
+		</div>
+		<div class="col-lg-4 col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-8 col-xs-offset-1  btpad">
+				<h1>Jhoom-Bollywood Dance Company</h1>
+				<p>Jhoom-Bollywood Dance Company continues to promote and celebrate Bollywood culture and colour through dance in Melbourne, Australia. You may have spotted some of them on TV last year at the Cricket World Cup and at White Night 2015. 
+
+At Jhoom Bollywood believe Bollywood dance melts all boundaries and fuses many dance styles and cultures together - the aim is to release the Bollywood star within you! 
+
+You can check out their website at <a target="_blank" href="http://www.jhoombollywood.com">www.jhoombollywood.com</a>
+</p>
+		</div>
+	</div>
+	
+	<div class="row apact">
+		<div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-9 col-xs-offset-1 stpad">
+				<h1>The DJ, Ben</h1>
+				<p>Our resident Dance-O-Thon DJ, Ben, is back again after his eight-hour marathon in 2014 ready to make sure the music never stops. Expect another great mix ranging from the old favourites to the latest club dance tracks and everything in between. You’ll also be treated to the latest African tracks straight out of the Ghanaian music scene from a recent reconnaissance trip – you won’t catch it anywhere else!
+</p>
+		</div>
+				<div class="overthing col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+		<img class="newguyimgsize" src="img/new-guy.jpg" />
+		</div>
+	</div>
+	
+	<div class="row apact">
+		<div class="overthing col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-offset-0">
+			<img  class="AMimg" src="img/AM.JPG" />
+		</div>
+		<div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-offset-1 btpad">
+				<h1>ARTHUR MURRAY DANCE STUDIO, BRIGHTON</h1>
+				<p>Established in 2008, Arthur Murray Dance Studio, Brighton has been a stalwart in the social dancing scene in Melbourne, and offer an exciting combination of private and group lessons, ‘practice parties’ and opportunities to enter national and international competitions and ‘Dancing with the Stars’ moments. See <a target="_blank" href="http://www.arthurmurrayvic.com.au">www.arthurmurrayvic.com.au</a> for more.
+<br><br>
+The instructors for the night are Umberto Presutti and Laura Kinross. Umburto Presutti has competed in Ballroom & Latin American competitions throughout Australia and overseas while Laura Kinross has worked with the English National Ballet School and the Scottish Ballet Company for many years. Both have trained many students through their medals. 
+</p>
+		</div>
+	</div>
+
+
+	<div class="row row-centered apact">
+		<div style="text-align: center;" class="col-lg-12 col-centered">
+			<h2 style="margin-bottom: 5px;">BONUS EVENT</h2>
+		</div>
+		
+		<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-1 col-xs-9 kujopad">
+			<h1>Where’s my Unicorn</h1>
+				<p>A qualified Hoop Love Coach, Melanie believes laughter is the best medicine. By sharing her love of dance and play she hopes to bring plenty of hula hoop fun, face painting shenanigans and ballooning laughs to all those around her. Trained in hoop dance, face painting and balloon art Melanie brings all her characters to life</p>
+		</div>
+		<div class="overthing col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+			<img class="WMUimg" src="img/WMU.jpg" />
+		</div>
+	</div>
+
+	<div class="row apact">
+		<div class="overthing col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+			<img  class="traceyimgsize" src="img/Tracey.jpg" />
+		</div>
+		<div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-offset-1 btpad">
+				<h1>Tracey Curro, MC</h1>
+				<p>Tracey Curro is a former 60 Minutes reporter, an Al Gore Climate Change Ambassador, and a Queensland University of Technology Outstanding Alumnus with over two decades’ experience in communication and media. 
+Following a distinguished career on flagship news and public affairs programs, Tracey held the role of General Manager Communication at the Victorian Government agency, Sustainability Victoria.
+Tracey lost her mother to ovarian cancer in 1997.  In 1998, she returned to The Royal Women’s Hospital and the medical team who had cared for her mother to co-produce the documentary, Somebody’s Mother.  The film, broadcast internationally and  on the Nine Network Australia in 2000, documented Sheila Lee’s campaign to raise awareness of this most lethal gynaecological cancer.</p>
+		</div>
+	</div>
+	
+	
+	<div class="row apact">
+	
+		<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-offset-1 col-xs-9 kujopad">
+			<h1>GENEVIEVE KINGSFORD, MC</h1>
+				<p>Genevieve Kingsford is an actress/singer from Melbourne. She trained at the London School of Musical Theatre graduating with a high distinction in her diploma. Genevieve’s passion and enthusiasm for the performing arts has lead her from great successes in training to great professional accomplishments. Notably, in London she played Johanna in a production of Sweeney Todd that won the 2015 What’s On Stage Award for Best Off-West End Production. Most recently she was in The Australian International Opera Company’s production of La Traviata that toured China. Genevieve has been an active member of the St. Leonard’s Uniting Church – a major supporter of the Dance-O-Thons for Ovarian Cancer - since she was 13. She is very much looking forward to undertaking the MC role for this year’s event and working alongside Tracey Curro</p>
+		</div>
+		<div class="overthing col-lg-4 col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+			<img class="genimgsize" src="img/GenevieveK.jpg" />
+		</div>
+	</div>
+	
+	
+		
+	
+
 
 </div>
+
+<div id="tocome">
+		<h1> With many more to come...</h1>
+
+</div>
+		
 </section>
 
+<! ------------------------------------------------------- FAQ -------------------------------------------------------------------------->
 
-<section id="register">
-	<div class="container-fluid register">
-		<div class="row">
-			<div class="col-md-4 col-md-offset-3">
-				
-<!-- 				<h1 class="wantto">Registering?</h1>  -->
-				
-				<!-- <p id="steps">Step 1</p> -->
-				<h1>Get a team</h1>
-				<p id="desc">Grab a team of up to 8 people to tackle the challenge with. Badger your friends, even if they hate dancing, especially if they hate dancing, or register as a solo dancer now and team members can join later. 
-The idea is that at least one member of each team is dancing at all times for the full 8 hours. 8 hours is the goal but if you’re welcome to set your own goal if that isn’t possible. You just won’t be eligible for the competitor prize draw at the end.
-</p>
-
-				<!-- <p id="steps">Step 2</p> -->
-				<h1>Pick a team name</h1>
-				<p id="desc">Pick a team name that all your team members can sign up under. Get creative!
-</p>
-
-				<!-- <p id="steps">Step 3</p> -->
-				<h1>Register</h1>
-				<p id="desc">You can register <a href="https://ovariancancer.secure.force.com/eventTicket?e=70116000000ob0m">here</a>. Each team member needs to sign up individually and list their team name on the form.  
-Registration costs $30 for adults and $20 for under 16s. Want to know what your registration fee pays for? Check out our FAQs (link).
-
-</p>
-
-				<!-- <p id="steps">Step 4</p> -->
-				<h1>Get sponsored</h1>
-				<p id="desc">Set up a team sponsorship page <a href="https://ovariancancer.secure.force.com/CICD__SignUp?id=70116000000oakU">here</a> and set yourself a fundraising goal. There will be prizes for the top team and individual fundraisers. Don’t forget to share your sponsorship page on Facebook, Twitter, via email or in person if you remember how to do that, and watch the sponsorship money roll in. 
-</p>
-
-			</div>
-		</div>
-	</div>
-</section>
 
 <section id="faq">
 	<div class="container-fluid faqs">
+
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
 				<h2 id="faqtitle">FAQ</h2>
 			</div>
-			<div class="col-md-6 col-md-offset-3">
+		</div>
+	
+		<div class="row">	
+			<div class="col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">	
+				<div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
 				<h1 id="question"><span class="h1bg">What does the event involve?</span></h1>
 				<p id="answer">The event involves registered teams (up to 8 dancers) dancing relay‐style for an 8‐hour duration and seeking sponsorship from friends, family and work colleagues for their efforts. 8 hours is just a goal, it’s up to you how long you want to dance. But with the amazing line-up of fun (and almost famous) bands, dance instructors and DJs you probably won’t want to stop. Even if you have to collapse once 8 hours is up. As an added incentive to keep dancing, prizes will be awarded throughout the day for all your hard work.
 </p>
 
 				<h1 id="question"><span class="h1bg">Where is the event?</span></h1>
-				<p id="answer">The Dance-o-thon will be held in the Grand Hall of the Kingston City Hall, 979-985 Nepean Hwy, Moorabbin near the corner of South Road and Nepean Hwy. The Grand Hall is on the second floor. [if you could link to google maps with the address loaded that would be great]
+				<p id="answer">The Dance-o-thon will be held in the Grand Hall of the <a href="https://www.google.com.au/maps/place/Kingston+City+Hall/@-37.93378,144.9659392,12z/data=!4m5!1m2!2m1!1skingston+city+hall!3m1!1s0x6ad66eb237f62e3f:0xc9e49003d9d323c1">Kingston City Hall</a>, 979-985 Nepean Hwy, Moorabbin near the corner of South Road and Nepean Hwy. The Grand Hall is on the second floor. 
 </p>
 
 							<h1 id="question"><span class="h1bg">Do I need a team to dance?</span></h1>
@@ -167,39 +420,36 @@ Registration costs $30 for adults and $20 for under 16s. Want to know what your 
 </p>
 
 				<h1 id="question"><span class="h1bg">Who can dance?</span></h1>
-				<p id="answer">We welcome dancers of any age. Children under 12 have to be accompanied by an adult however and parental consent is needed for under 18s. 
-</p>
-
-			<h1 id="question"><span class="h1bg">What if I want to come but I can only come for a short while or don’t want to dance?</span></h1>
-				<p id="answer">You are more than welcome to come even only for a short time or not to dance. Casual dancers and spectators can participate in the events by paying a small entrance fee at the door (proceeds collected on the day will be donated to OCA). 
+				<p id="answer">We welcome dancers of any age. Children under 12 have to be accompanied by an adult.  
 </p>
 
 				<h1 id="question"><span class="h1bg">Where does the money go?</span></h1>
 				<p id="answer">100% of the sponsorship money and a portion of the registration fees will go to Ovarian Cancer Australia (OCA) for vital research to improve the prevention, diagnosis and treatment of Ovarian Cancer. </p>
 
 			<h1 id="question"><span class="h1bg">How much does it cost?</span></h1>
-				<p id="answer">There is a registration fee of $30 for adults and $20 for under 16s. The registration fee covers the cost of running the event including venue hire and insurance but any remaining proceeds will all go to Ovarian Cancer Australia. You can register [here]
+				<p id="answer">There is a registration fee of $35 for adults, $25 for students, $15 for those 16 and under and $80 for a family ticket (two adults and two children). The registration fee covers the cost of running the event including venue hire and insurance but any remaining proceeds will all go to Ovarian Cancer Australia.
 
 <br>
 <br>With your registration fee you will also receive:
 <ul> 
-<li>8 hours of music and dance instruction</li>
-<li>A ‘survival kit’ which includes a light meal, snacks, water etc.</li>
+<li>8 hours of music, entertainment and dance instruction</li>
+<li>A ‘survival kit’ which includes sandwiches, snacks and water.</li>
 </ul>
 
 </p>
 
 				<h1 id="question"><span class="h1bg">How do I collect sponsorships?</span></h1>
 				<p id="answer">All dancers are encouraged to seek sponsorships for their efforts. 8 hours of dancing is not easy and you should be rewarded for your efforts. More importantly 100% of sponsorship money will go to Ovarian Cancer Australia towards ground-breaking research to improve the treatment and lives of women suffering from this disease. 
-
-Set up your sponsorship page [here] and start collecting money!
+<br><br>
+Set up your sponsorship page <a href="https://ovariancancer.secure.force.com/CICD__SignUp?id=70116000000oakU">here</a> to start collecting money online. Or if you prefer you can collect cash donations and bring them on the day. 
 </p>
 
 			<h1 id="question"><span class="h1bg">Are donations and sponsorships tax-deductible?</span></h1>
 				<p id="answer">Yes, donations and sponsorships over $2 are tax-deductible however the registration fee is not. For all online sponsorships a receipt will be sent automatically after the transaction. All donations over $2 by cheque or cash will receive a receipt from OCA after the event</p>
 
 				<h1 id="question"><span class="h1bg">Will there be food and drinks available?</span></h1>
-				<p id="answer">A survival kit with a light meal, snacks and water will be provided with your registration, a kiosk will be open to purchase additional snacks and drinks throughout the event. 
+				<p id="answer">A survival kit with sandwiches, snacks and water will be provided with your registration. A kiosk will be open to purchase additional snacks and drinks throughout the event and you are welcome to bring your own food to keep you going. 
+					<br><br>
 
 There will be water on tap to fill up your drink bottles
 
@@ -210,41 +460,89 @@ There will be water on tap to fill up your drink bottles
 </p>
 
 				<h1 id="question"><span class="h1bg">How else can I get involved or support the event?</span></h1>
-				<p id="answer">The event organisers are 100% volunteers so any help you may be able to provide us would be greatly appreciated, even if you can’t make it on the day. Please send us an email [here] if you wish to volunteer or have some product or service that you may be able to donate.
+				<p id="answer">The event organisers are largely volunteers so any help you may be able to provide us would be greatly appreciated, even if you can’t make it on the day. Please send us an email <a href="mailto:emma.robinson@ovariancancer.net.au">here</a> if you wish to volunteer or have some product or service that you may be able to donate.
 </p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="about">
-	<div class="container-fluid post-1">
+
+
+
+<section id="contact">
+	<div class="container-fluid contactbg">
 		<div class="row">
-			<div class="col-lg-12 text-center">
-				<p>YO TEST</p>
-				<p>AGAIN TEST</p>
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<p class="text-center contitle uppercase">contact and event info</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-10 col-md-offset-1">
+				<div class="kingstonmap" id="kingstonmap">
+				</div>
+
+				<p class="contacttext parking" style="background-color: #005c6a;">
+				There are 90 free parking spots in the <span class="mybold">Kingston City Hall</span> carpark accessible via the slip road on Nepean Highway. There&nbsp;is&nbsp;also&nbsp;parking available on side streets on either side of the highway however there may be time restrictions in these areas. Moorabbin train station is located next door to the venue. 
+				</p>
+			</div>
+		</div>		
+</section>
+
+<section id="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-lg-offset-2 col-sm-6 col-sm-offset-1 contacttext2">
+				<div class="col-lg-12">
+			If you have questions, want to volunteer or donate products or services you can contact OCA at emma.robinson@ovariancancer.net.au
+or (03)&nbsp;9289&nbsp;9777 	
+				</div>
+			<div class="col-lg-12 sicons">
+				
+					<div class="socialicons">
+		<!--Pulling Awesome Font -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+						<div class="col-md-12">
+                    		<ul class="social-network social-circle">
+                        		<li><a target="blank" href="https://www.facebook.com/Dance-O-Thon-for-Ovarian-Cancer-642011305918895/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a target="blank" href="https://twitter.com/OCADance_O_Thon" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    		</ul>				
+						</div>
+					</div>
+				
+			</div>
+			</div>
+			<div class="col-lg-4">
+				
+				<img src="img/OCA-Logo-White.png" class="img-responsive" style="max-width:250px; margin:0 auto;">
+				
+				
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="contact">
-	<div class="container-fluid post-1">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<p>YO TEST</p>
-				<p>AGAIN TEST</p>
+<section id="bylopu">
+	<div class="container-fluid animate">
+		<div class="row rowheightnik">
+			<div class="col-md-6 col-md-offset-1 text-center ">
+				   <ul class="uppercase mynavmenu">
+						<li><a href="index.html">Home</a></li>
+						<li><a class="scroll" href="#about">about</a></li>
+						<li><a class="scroll" href="#register">register</a></li>
+						<li><a class="scroll" href="#acts">acts</a></li>
+						<li><a class="scroll" href="#faq">faq</a></li>
+						<li><a class="scroll" href="#contact">contact</a></li>
+				    </ul>
+			</div>
+			<div class="col-md-3 col-md-offset-1 col-lg-offset-2 text-center bynik">
+				Site done and donated by <a target="_blank" href="http://lopu.com.au">me, lopu</a>
 			</div>
 		</div>
 	</div>
 </section>
-								
 
 
 </body>
-
-
-
-
-
 </html>

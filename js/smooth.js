@@ -1,6 +1,6 @@
 	$(document).ready(function(){
   // Add smooth scrolling to all links in navbar
-  $(".mynav a.scroll").on('click', function(event) {
+  $(".mynav a.scroll, #register a.scroll, #bylopu a.scroll").on('click', function(event) {
 
   // Prevent default anchor click behavior
   event.preventDefault();
