@@ -2,11 +2,11 @@ var myCenter = new google.maps.LatLng(-37.933814, 145.035917);
 
 function initialize() {
 var mapProp = {
-center:myCenter,
-zoom:12,
-scrollwheel:false,
-draggable:true,
-mapTypeId:google.maps.MapTypeId.ROADMAP
+    center:myCenter,
+    zoom:12,
+    scrollwheel:false,
+    draggable:true,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
 };
 
 var map = new google.maps.Map(document.getElementById("kingstonmap"),mapProp);
